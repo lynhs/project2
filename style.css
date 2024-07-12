@@ -600,3 +600,33 @@ a.navbar__link {
 .blog-item__more:hover {
     color: #2E80CE;
 }
+
+/* appointment */
+.appointment {
+    margin: 85px 0;
+}
+
+.appointment__inner {
+    padding: 100px 178px;
+    background: #F6FBFF;
+    text-align: center;
+}
+
+.appointment__heading::after {
+    content: "";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background: #2E80CE;
+    margin: 18px auto 0;
+}
+
+.appointment__desc {
+    margin-top: 18px;
+    max-width: 617px;
+    margin: 18px auto 0;
+}
+
+.appointment__btn {
+    margin-top: 38px;
+}
